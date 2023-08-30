@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* You can replace with your preferred font */
+
+   
+}
+
+
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 60vh; /* Adjust as needed */
+    background-image: url('images/banner.png'); /* Replace with your image path */
+    margin-left: 40px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.hero-content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 10px;
+    color:rgba(0, 0, 0, 0.822);
+  
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/* @media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+} */
+.with-arrow {
+    padding-left: 60px; /* Adjust as needed to create space for the arrow */
+    background-image: url('images/arrow.png'); /* Replace with your arrow image path */
+    background-repeat: no-repeat;
+    background-position: left center; /* Position the arrow image at the left center */
+    color:darkblue;
+  
+}
+
+.image-container {
+    display: inline-block;
+    width: calc(32% - 8px); /* Adjust the width and gaps */
+    margin-right: 20px; /* Adjust the gap between images */
+    margin-left: 8px;
+  }
+
+  .image-container img {
+    width: 100%; /* Make the image fill the container */
+    border: 1px solid darkblue; /* Border style */
+    box-sizing: border-box;
+    display: inline-block;
+  }
+
+  .image-set {
+    text-align: justify;
+    padding: 10px 0; /* Adjust vertical padding */
+    margin: 20px; /* Adjust negative margin to compensate for padding */
+    white-space: nowrap; /* Prevent line breaks */
+
+  }
+
+  .center-text{
+    text-align:center;
+  }
+
+  .arrow-left{
+    color: darkblue;
+    margin-left: 40px;
+  }
+.header-red{
+    color:darkred;
+}
+p{
+    color:rgba(0, 0, 139, 0.781);
+}
+.third-header{
+    color:darkred;
+    margin-left:40px;
+}
+
+
+
+  .right-image {
+    float: right; /* Float the image to the right */
+    width: 230px; /* Adjust image width */
+    height: 185px; /* Adjust image height */
+    margin-right: 40px;
+  }
+  .container{
+    margin-left: 40px;
+  }
+
+  ul {
+    list-style-type: disc; /* Use disc bullets */
+ margin-left: 40px;
+ color:darkblue;
+  }
+  ul li {
+    margin-bottom: 8px; /* Adjust the gap between bullet points */
+  }
+
+  .left-image{
+    float:left;
+    width:330px;
+    height:320px;
+    margin-left:40px;
+  }
+
+  .fourth-header{
+    color:darkred;
+    margin-top: -1em;
+  
+  }
+
+.jar-points{
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-right:75px;
+}
+
+hr {
+    border: none; /* Remove the default line */
+    border-top: 4px solid rgba(139, 0, 0, 0.829); /* Set the desired thickness and color */
+    margin: 20px 0; /* Adjust the margin for spacing */
+  }
+
+  .footer-center{
+    text-align: center; /* Center-align the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+ 
+  }
+  
+  .center-words {
+    text-align: center; /* Center-align the words horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .word {
+    margin: 0 10px; /* Adjust the gap between words */
+    font-weight: bold;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 120px; /* Adjust logo width */
+    height: 40px; /* Adjust logo height */
+   
+    margin-left: 40px;
+    padding:10px;
+  }
+
+  .right-side {
+  margin-right: 20px;
+    display: flex;
+    justify-content:right;
+    position: absolute;
+    top: 0;
+    right: 0;
+font-weight: bold;
+padding: 10px;
+    align-items: flex-end;
+  }
+
+  .wore {
+    margin-left: 20px; /* Adjust the gap between words */
+  }
+
+
