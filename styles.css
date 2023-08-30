@@ -1,18 +1,15 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif; /* You can replace with your preferred font */
+    font-family: Arial, sans-serif; 
 
    
 }
 
-
-
-
 .hero {
     position: relative;
     width: 100%;
-    height: 60vh; /* Adjust as needed */
-    background-image: url('images/banner.png'); /* Replace with your image path */
+    height: 60vh; 
+    background-image: url('images/banner.png');
     margin-left: 40px;
     margin-right: 20px;
     background-size: cover;
@@ -42,39 +39,39 @@ h1 {
     }
 }
 
-/* @media screen and (max-width: 480px) {
+ @media screen and (max-width: 480px) {
     h1 {
         font-size: 1.2rem;
     }
-} */
+} 
 .with-arrow {
-    padding-left: 60px; /* Adjust as needed to create space for the arrow */
-    background-image: url('images/arrow.png'); /* Replace with your arrow image path */
+    padding-left: 60px; 
+    background-image: url('images/arrow.png');
     background-repeat: no-repeat;
-    background-position: left center; /* Position the arrow image at the left center */
+    background-position: left center;
     color:darkblue;
   
 }
 
 .image-container {
     display: inline-block;
-    width: calc(32% - 8px); /* Adjust the width and gaps */
-    margin-right: 20px; /* Adjust the gap between images */
+    width: calc(32% - 8px); 
+    margin-right: 20px; 
     margin-left: 8px;
   }
 
   .image-container img {
-    width: 100%; /* Make the image fill the container */
-    border: 1px solid darkblue; /* Border style */
+    width: 100%; 
+    border: 1px solid darkblue; 
     box-sizing: border-box;
     display: inline-block;
   }
 
   .image-set {
     text-align: justify;
-    padding: 10px 0; /* Adjust vertical padding */
-    margin: 20px; /* Adjust negative margin to compensate for padding */
-    white-space: nowrap; /* Prevent line breaks */
+    padding: 10px 0;
+    margin: 20px;
+    white-space: nowrap;
 
   }
 
@@ -100,9 +97,9 @@ p{
 
 
   .right-image {
-    float: right; /* Float the image to the right */
-    width: 230px; /* Adjust image width */
-    height: 185px; /* Adjust image height */
+    float: right; 
+    width: 230px; 
+    height: 185px; 
     margin-right: 40px;
   }
   .container{
@@ -110,12 +107,12 @@ p{
   }
 
   ul {
-    list-style-type: disc; /* Use disc bullets */
+    list-style-type: disc; 
  margin-left: 40px;
  color:darkblue;
   }
   ul li {
-    margin-bottom: 8px; /* Adjust the gap between bullet points */
+    margin-bottom: 8px; 
   }
 
   .left-image{
@@ -138,13 +135,13 @@ p{
 }
 
 hr {
-    border: none; /* Remove the default line */
-    border-top: 4px solid rgba(139, 0, 0, 0.829); /* Set the desired thickness and color */
-    margin: 20px 0; /* Adjust the margin for spacing */
+    border: none; 
+    border-top: 4px solid rgba(139, 0, 0, 0.829);
+    margin: 20px 0; 
   }
 
   .footer-center{
-    text-align: center; /* Center-align the text horizontally */
+    text-align: center; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,7 +150,7 @@ hr {
   }
   
   .center-words {
-    text-align: center; /* Center-align the words horizontally */
+    text-align: center; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,7 +158,7 @@ hr {
   }
 
   .word {
-    margin: 0 10px; /* Adjust the gap between words */
+    margin: 0 10px; 
     font-weight: bold;
   }
   .main {
@@ -170,8 +167,8 @@ hr {
   }
 
   .logo {
-    width: 120px; /* Adjust logo width */
-    height: 40px; /* Adjust logo height */
+    width: 120px; 
+    height: 40px; 
    
     margin-left: 40px;
     padding:10px;
@@ -190,7 +187,7 @@ padding: 10px;
   }
 
   .wore {
-    margin-left: 20px; /* Adjust the gap between words */
+    margin-left: 20px; 
   }
 
 
